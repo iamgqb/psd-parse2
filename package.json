@@ -1,0 +1,29 @@
+{
+  "name": "psd-parse2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "gen": "tsc && tsc ./example/index.ts && node ./example/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/iconv-lite": "0.0.1",
+    "@types/node": "^12.6.9",
+    "@types/pngjs": "^3.3.2",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.1.0",
+    "pngjs": "^3.4.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamgqb/psd-parse2.git"
+  }
+}
